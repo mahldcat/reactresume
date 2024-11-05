@@ -1,0 +1,20 @@
+.header {
+    text-align: center;
+}
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 10px 0;
+}
+.contact-info svg {
+    margin-right: 5px;
+}
+.bio {
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 10px;
+
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
