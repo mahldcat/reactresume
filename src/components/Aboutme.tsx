@@ -1,4 +1,3 @@
-import React, { ReactNode } from 'react';
 import './Aboutme.css';
 
 interface AboutMeProps {

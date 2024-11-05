@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Hobby,Bullets } from '../data/types';
+import { Bullets } from '../data/types';
 import { DataService } from '../services/DataService';
 import './Expertise.css';
 
