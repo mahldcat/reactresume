@@ -1,0 +1,37 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Set up Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '22'
+
+      # Install dependencies and build
+      - name: Install dependencies and build
+        run: |
+          npm install
+          npm run build
+
+      # Upload build to remote server using FTPS
+      - name: Deploy to remote server
+        env:
+          # The user should be scope limited to the root of the site (e.g. sub folder)
+          FTPS_USER: ${{ secrets.FTPS_USER }}
+          FTPS_PASS: ${{ secrets.FTPS_PASS }}
+          FTPS_HOST: ${{ secrets.FTPS_HOST }}
+        run: |
+          lftp -u $FTPS_USER,$FTPS_PASS -e "mirror -R build / && quit" $FTPS_HOST
