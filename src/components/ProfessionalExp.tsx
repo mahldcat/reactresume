@@ -9,7 +9,7 @@ const ProfessionalExp: React.FC<ProfessionalExpProps> = () => {
         <div>
             <div className="row banda">
                 <div className="col-2">
-                    2011-Present GoDaddy<br/> 
+                    2011-2024 GoDaddy<br/> 
                     Lead Developer and Manager<br/> 
                     Windows Hosting using Plesk
                 </div>
