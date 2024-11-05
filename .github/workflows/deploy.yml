@@ -39,4 +39,4 @@ jobs:
           FTPS_HOST: ${{ secrets.FTPS_HOST }}
         run: |
         
-          lftp -u $FTPS_USER,$FTPS_PASS -e "set ssl:verify-certificate no; mirror -R build /remote/directory && quit" $FTPS_HOST
+          lftp -u $FTPS_USER,$FTPS_PASS -e "set ssl:verify-certificate no; mirror -R build / && quit" $FTPS_HOST
