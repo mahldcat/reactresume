@@ -25,7 +25,7 @@ const ProfessionalExp: React.FC<ProfessionalExpProps> = () => {
                     
                     <p>Management, Mentorship, Cross team collaboration:</p>
                     <ul>
-                        <li>Worked with my team's PM to oversee, plan and cost out our initiatives</li>
+                        <li>Partnered with my team's PM to oversee, plan and cost out our initiatives</li>
                         <li>Managed a team of developers overseeing their careers and promotions</li>
                         <li>Successfully mentored multiple college interns, each leading to a job offer</li>
                         <li>Almost daily collaboration with partner teams over Zoom and Slack</li>
@@ -34,7 +34,7 @@ const ProfessionalExp: React.FC<ProfessionalExpProps> = () => {
                     <ul>
                         <li>Scrum master for more than 8 years using Jira as the task management system</li>
                         <li>Owned and Developed my team’s CI/CD workflows</li>
-                        <li>Migrated many of our systems onto chocolatey simplifying deployments</li>    
+                        <li>Migrated many of our systems onto chocolatey-- simplifying deployments</li>    
                         <li>Have been using a Pull Request/Peer review process for &gt; 10 years</li>
                     </ul>
                     <p>Simplification:</p>
