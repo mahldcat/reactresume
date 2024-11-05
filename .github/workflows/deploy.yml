@@ -20,6 +20,10 @@ jobs:
         with:
           node-version: '22'
 
+      # Install lftp
+      - name: Install lftp
+        run: sudo apt-get update && sudo apt-get install -y lftp          
+
       # Install dependencies and build
       - name: Install dependencies and build
         run: |
