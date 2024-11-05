@@ -32,7 +32,7 @@ const Aboutme: React.FC<AboutMeProps> = () => {
                 </div>
             </div>
             <div className="bio">
-                Seasoned Software Development professional with 20 years of experience in roles including Software Development Engineer (SDE), Software Development Engineer in Test (SDET), Manager, and Lead. Proficient in full-stack development, with a strong focus on backend technologies and extensive expertise in .NET, C#, and AWS. Demonstrated versatility in handling various technology stacks, showcasing robust problem-solving skills and technical leadership to deliver high-quality solutions in fast-paced environments.
+                Seasoned Software Development professional with 20 years of experience.  Roles include Manager, Software Development Engineer (SDE), and Software Development Engineer in Test (SDET). I am a backend developer with the ability to do front end.  Strong focus in .NET, C# and PowerShell. Demonstrated versatility in handling various technology stacks, showcasing robust problem-solving skills and technical leadership to deliver high-quality solutions in fast-paced environments.
             </div>    
         </>
     );
