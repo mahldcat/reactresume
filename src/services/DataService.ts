@@ -2,7 +2,7 @@ import { Bullets} from "../data/types";
 
 
 export class DataService {
-    private bulletDataUrl = 'data/bulletbreakdowns.json'; // URL to fetch the data
+    private bulletDataUrl = 'http://data.hyperio.us/v1/resume/expertise'; // URL to fetch the data
 
     async getBulletData(): Promise<Bullets> {
         try {
