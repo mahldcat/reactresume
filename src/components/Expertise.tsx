@@ -64,10 +64,10 @@ const Expertise: React.FC = () => {
                         <p className='h5'>Hobbies</p>                        
                         <ul>
                         {data.hobbies.map((hobby, index) => (
-                            <li key={hobby.Name}>{hobby.Name}
-                            {hobby.Properties && (
+                            <li key={hobby.name}>{hobby.name}
+                            {hobby.properties && (
                                 <ul>
-                                    {hobby.Properties.map((property, propIndex) => (
+                                    {hobby.properties.map((property, propIndex) => (
                                         <li key={propIndex}>{property}</li>
                                     ))}
                                 </ul>

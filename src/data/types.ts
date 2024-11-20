@@ -6,6 +6,6 @@ export interface Bullets {
 }
 
 export interface Hobby {
-    Name: string;
-    Properties?: string[]; // Optional, as not all hobbies have properties
+    name: string;
+    properties?: string[]; // Optional, as not all hobbies have properties
 }
